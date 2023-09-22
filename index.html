@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml"
+
+>
+<head>
+    <meta charset="utf-8" />
+    <title>Решение задания</title>
+
+    <link rel="stylesheet" href="style.css   ">
+
+</head>
+<body>
+<div class="main">
+
+<div class="header">
+<h2 class="TODOList">TODOList</h2>  
+</div>
+<div class="content">
+<input type="text" class="case" placeholder="Введите название дела"><input type="text" class="description" placeholder="Введите description">
+<input type="button" class="case_button" value="Добавить дело">
+  <input type="button" class="delete_first_case" value="Удалить первое дело" onclick="delete_first_case()">
+   <input type="button" class=" even_allocation" value="Выделить чётные элементы" onclick="even_allocation()">
+     <input type="button" class=" even_allocation" value="Выделить нечётные элементы" onclick="add_selection()">
+     
+
+<div class="case_content">
+<ul class=""good"></ul>
+</div>
+ <input type="button" class="delete_last_case" value="Удалить последнее дело" onclick="delete_last_case()">
+</div>
+<div class="footer">
+</div>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

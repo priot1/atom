@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+@import "https://fonts.fontstorage.com/import/roboto.css";
+
+
+
+}
+
+
+.main {
+
+
+        width: 1440px;
+        height: 1384px;
+margin:0 auto;
+    }
+    .main  input{
+        width: 510px;
+        height: 49px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        margin-top: -5px;
+        margin-bottom: 7px;
+    }
+.main button{
+    background-color: #1A226B;
+    width: 180px;
+    height: 52px;
+    margin-left:210px ;
+    font-size: 24px;
+    line-height: 16px;
+    color: white;
+    margin-top: -10px;
+    font-weight:bold;
+    margin-top: 25px;
+}
+ul li{
+font-size: 32px;
+list-style-type: none;
+background-color: #a6caf0;
+margin-bottom: 9px;
+margin-top: 9px;
+padding-left: 20px;
+padding-bottom: 9px;
+}
+.complecte{
+margin-right: 100px;
+float: right;
+}
+ .img_delete{
+width:30px;
+height:30px;
+}
+.TODOList{
+text-align:center;
+}
